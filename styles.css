@@ -1,0 +1,16 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 150px;
+}
+
+.check {
+    color: #f54b4b;
+    font-weight: bold;
+}
