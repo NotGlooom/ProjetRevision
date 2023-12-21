@@ -14,3 +14,11 @@
     color: #f54b4b;
     font-weight: bold;
 }
+
+#manga{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    font-size: 50px;
+    color: darkred;
+}
