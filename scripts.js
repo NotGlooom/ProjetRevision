@@ -49,7 +49,7 @@ function creerBoxAjout() {
         <div class="card-body d-flex flex-column align-items-center">
             <h5 class="card-title mb-4" style="margin-top: 100px">Add Manga</h5>
             <a href="addMangaFormPage.html" class="btn btn-success mx-auto mb-4">Ajouter</a>
-            <a href="Index.html" class="btn btn-primary mx-auto">Acceuil</a> 
+            <a href="index.html" class="btn btn-primary mx-auto">Acceuil</a> 
         </div>
     </div>`);
 }
