@@ -9,9 +9,15 @@ function creerCarte(manga) {
                 <p>Quantity : ${manga.quantity}</p>
                 <p>ID : ${manga.id}</p>
             </div>
-            <input type="button" onclick="supprimer(${manga.id})" class="btn btn-danger" value="Supprimer">
+            <input type="button" onclick="supprimer(${manga.id})" class="btn btn-danger mb-3" value="Supprimer">
+            <a href="ModifierMangaFormPage.html" onclick="storeMangaId(${manga.id})" class="btn btn-info">Modifier</a>
         </div>
-    </div>`)
+    </div>`);
+}
+
+// Function to store the manga ID in local storage
+function storeMangaId(id) {
+    localStorage.setItem("mangaId", id);
 }
 
 function affichertout() {
